@@ -60,42 +60,44 @@ nav {
 }
 
 /* ===== Hero (perfil) ===== */
-.hero { 
-    text-align: center; 
-    padding: 64px 24px; 
-} 
-
-.avatar { 
-    width: 120px; 
-    height: 120px; 
-    border-radius: 50%; 
-    border: 2px solid var(--borde); 
-    margin-bottom: 16px; 
+.hero {
+    text-align: center;
+    padding: 64px 24px;
 }
 
-.hero h1 { 
-    font-size: 28px; 
-    margin-bottom: 8px; 
-} 
-
-.bio { 
-    color: var(--texto-tenue); 
-    margin-bottom: 20px; 
+.avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 2px solid var(--borde);
+    margin-bottom: 16px;
 }
 
- .badges { 
-    display: flex; 
-    justify-content: center; 
-    gap: 8px; 
-} 
+.hero h1 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 8px;
+}
 
-.badge { 
-    background-color: var(--bg-secundario); 
-    border: 1px solid var(--borde); 
-    border-radius: 20px; 
-    padding: 4px 12px; 
-    font-size: 12px; 
-    color: var(--texto-tenue); 
+.bio {
+    color: var(--texto-tenue);
+    margin-bottom: 20px;
+}
+
+.badges {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.badge {
+    background-color: var(--bg-secundario);
+    border: 1px solid var(--borde);
+    border-radius: 20px;
+    padding: 4px 12px;
+    font-size: 12px;
+    color: var(--texto-tenue);
 }
 
  /* ===== Sobre mí (README) ===== */
@@ -110,8 +112,9 @@ nav {
 .readme-header { 
     background-color: var(--bg-secundario); 
     border-bottom: 1px solid var(--borde); 
-    padding: 12px 20px; font-size: 14px; 
+    padding: 12px 20px; font-size: 12px; 
     font-weight: bold; 
+    font-family: 'Press Start 2P', cursive; 
 } 
     
 .readme-body { 
@@ -135,7 +138,8 @@ nav {
 
 .proyectos h2 { 
     margin-bottom: 24px; 
-    font-size: 22px; 
+    font-size: 16px; 
+    font-family: 'Press Start 2P', cursive; 
 } 
 
 .grid-proyectos { 
@@ -201,9 +205,10 @@ nav {
     margin: 0 auto 64px; 
     padding: 0 24px; } 
     
-.contacto h2 { 
+ .contacto h2 { 
     margin-bottom: 24px; 
-    font-size: 22px; 
+    font-size: 16px; 
+    font-family: 'Press Start 2P', cursive; 
 } 
     
 .campo { 
@@ -288,7 +293,8 @@ footer {
 
      
     .hero h1 { 
-        font-size: 22px; } 
+        font-size: 14px; 
+    }
         
     .readme, 
     .proyectos, 
