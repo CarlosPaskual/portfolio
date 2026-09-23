@@ -204,9 +204,7 @@ nav {
     height: 160px; 
     object-fit: contain; 
     background-color: var(--bg-secundario); 
-    border-radius: 6px; 
-    margin-bottom: 16px; 
-}
+    border-radius: 6px; margin-bottom: 16px; }
 
 /* ===== Contacto (formulario) ===== */
 .contacto { 
