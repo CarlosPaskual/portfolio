@@ -199,6 +199,15 @@ nav {
     background-color: #3572A5; 
 }
 
+.repo-card img { 
+    width: 100%; 
+    height: 160px; 
+    object-fit: contain; 
+    background-color: var(--bg-secundario); 
+    border-radius: 6px; 
+    margin-bottom: 16px; 
+}
+
 /* ===== Contacto (formulario) ===== */
 .contacto { 
     max-width: 500px; 
